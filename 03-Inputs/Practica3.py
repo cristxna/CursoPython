@@ -1,0 +1,1 @@
+print("Provincia, Institución y Carrera: " + (input("Nombre de tu Provincia: ") + (input("Nombre de tu Universidad: ")) + (input("Nombre de tu Carrera: "))))

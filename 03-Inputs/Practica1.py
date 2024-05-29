@@ -1,0 +1,1 @@
+print("Soy estudiante de " + (input("¿Qué estas estudiando?: ")))

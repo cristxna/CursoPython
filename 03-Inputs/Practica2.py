@@ -1,0 +1,1 @@
+print("Vivo en " + (input("¿En que pais vives?: ")))
