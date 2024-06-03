@@ -1,0 +1,13 @@
+print("Bienvenido a la calculadora de propinas")
+factura = float(input("Total valor de la cuenta: ")) 
+propina = float(input("¿Cuánto le gustaría dar de propina (%)?: "))
+persona = int(input("¿Para cuántas personas se va a dividir la cuenta?: "))
+x = print(f"Cada persona debe pagar: {factura/persona}.")
+y = print(f"Propina: {(factura/persona)*(propina/100)}.")
+z  = ((factura/persona)*(propina/100))+(factura/persona)
+redondeo = round(z, 2)
+t = print(f"Total a pagar por persona: {redondeo}")
+
+
+
+
